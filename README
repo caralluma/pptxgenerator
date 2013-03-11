@@ -1,0 +1,8 @@
+Convenience Java class for generating pptx Powerpoint files using the open-source,
+powerful, but ill-documented docx4j. Written after piecing together info and code
+from all over the place.
+
+Still something of a WIP, but it works. Initially worked on for a client, but it didn't
+turn out to be necessary in the end, so I never really wrapped it up.
+
+Docx4j site here: http://www.docx4java.org/trac/docx4j
