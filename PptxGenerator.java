@@ -294,7 +294,7 @@ public class PptxGenerator  {
         SlidePart slide1 = g.createTwoContentSlide();
         g.addTitle(slide1, "Das Title");
         g.addImage(slide1, System.getProperty("user.dir") + "/ffffuuuuuuu.jpg", 4514812, 1071812, 4014375, 4014375);
-        g.addImage(slide1, System.getProperty("user.dir") + "/brandtology_logo.png", 8214812, 107181, 704375, 1004375);
+        g.addImage(slide1, System.getProperty("user.dir") + "/haha_logo.png", 8214812, 107181, 704375, 1004375);
         g.addImage(slide1, System.getProperty("user.dir") + "/pagination_bg.png", 8414812, 5307181, 754375, 404375);
         ArrayList<String> contents = new ArrayList<String>();
         contents.add("Your");
@@ -305,14 +305,14 @@ public class PptxGenerator  {
         SlidePart slide2 = g.createStandardSlide();
         g.addTitle(slide2, "Check it out, a graph!");
         g.addImage(slide2, System.getProperty("user.dir") + "/graph.png", 514812, 1071812, 8514375, 4014375);
-        g.addImage(slide2, System.getProperty("user.dir") + "/brandtology_logo.png", 8214812, 107181, 704375, 1004375);
+        g.addImage(slide2, System.getProperty("user.dir") + "/haha_logo.png", 8214812, 107181, 704375, 1004375);
         g.addImage(slide2, System.getProperty("user.dir") + "/pagination_bg.png", 8414812, 5307181, 754375, 404375);
         g.addTextShape(slide2, "Company in Confidence", 114812, 5071812, 4014375, 514375);
         g.save(outputfilepath);
         SlidePart slide3 = g.createStandardSlide();
         g.addTitle(slide3, "I can haz text under mai graph!?");
         g.addImage(slide3, System.getProperty("user.dir") + "/graph2.png", 514812, 1071812, 8514375, 2014375);
-        g.addImage(slide3, System.getProperty("user.dir") + "/brandtology_logo.png", 8214812, 107181, 704375, 1004375);
+        g.addImage(slide3, System.getProperty("user.dir") + "/haha_logo.png", 8214812, 107181, 704375, 1004375);
         g.addImage(slide3, System.getProperty("user.dir") + "/pagination_bg.png", 8414812, 5307181, 754375, 404375);
         g.addTextShape(slide3, "Company in Confidence", 114812, 5071812, 4014375, 514375);
         g.addTextShape(slide3, "I can write maaaaaaaaaaaaaaannnnnnnnnyyyyyyyyyy thingssss\n In moar lines", 514812, 3271812, 8514375, 1814375);
